@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Makerland</title>
+</head>
+
+<body>
+  <script src="jquery.js"></script>
+  <h1>Makerland</h1>
+  <div id="stage"></div>
+
+  <script type="text/javascript">
+    $(function() {
+      $("#stage").load('map.svg', function(response) {
+        $(this).addClass("mapLoaded");
+        if(!response) {
+          alert("Map not loaded");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
