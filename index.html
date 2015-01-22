@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Makerland</title>
+  <link rel="stylesheet" type="text/css" href="map.css">
 </head>
 
 <body>
@@ -9,15 +10,7 @@
   <h1>Makerland</h1>
   <div id="stage"></div>
 
-  <script type="text/javascript">
-    $(function() {
-      $("#stage").load('map.svg', function(response) {
-        $(this).addClass("mapLoaded");
-        if(!response) {
-          alert("Map not loaded");
-        }
-      });
-    });
-  </script>
+  <script src="map.js"></script>
+
 </body>
 </html>
