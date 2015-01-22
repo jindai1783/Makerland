@@ -5,5 +5,4 @@ $(function() {
       alert("Map not loaded");
     }
   });
-  
 });
