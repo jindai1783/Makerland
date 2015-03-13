@@ -1,5 +1,11 @@
 # Makerland
 
+## Introduction
+
+This repository is my leisure attempt to write a interactive map, which Makers students can interact and play with.
+
+![alt text][logo]
+
 ## Objectives
 
 * Practice front end development:
@@ -7,10 +13,5 @@
   * Html
   * CSS
 * Try vector graphics (SVG)
-
-## Application
-A simple map game for Makers
-
-![alt text][logo]
 
 [logo]: demo_md.gif "Logo Title Text 2"
