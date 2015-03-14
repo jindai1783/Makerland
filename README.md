@@ -6,6 +6,12 @@ This repository is my leisure attempt to write a interactive map, which Makers s
 
 ![alt text][logo]
 
+## Try It
+
+```
+open index.html
+```
+
 ## Objectives
 
 * Practice front end development:
